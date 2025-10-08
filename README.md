@@ -1,0 +1,1 @@
+My learning journey of learning wet lab skills along with dry lab skills to understand the data. My inspiration to learn about the bioinformatics tools, to understand how each tool can be used effectively to analyze data. How the evolution and updates have been done along with the time period.
