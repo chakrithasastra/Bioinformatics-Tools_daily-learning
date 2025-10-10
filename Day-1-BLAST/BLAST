@@ -1,1 +1,26 @@
 BLAST - BASIC LOCAL ALIGNMENT SEARCH TOOL
+
+## Types of BLAST
+- `blastn`: nucleotide vs nucleotide
+- `blastp`: protein vs protein
+- `blastx`: translated nucleotide vs protein
+- `tblastn`: protein vs translated nucleotide
+
+## Typical Workflow
+1. Obtain a query sequence (FASTA format).
+2. Choose the appropriate BLAST program.
+3. Run BLAST (locally or online).
+4. Review and parse results (look for E-value, identity, coverage).
+5. Visualize results.
+
+
+1. NCBI SEARCH_DATABASE_NUCLEOTIDE_ Drosophila melanogaster superoxide dismutase 1 (Sod1), mRNA
+**** The Drosophila melanogaster Sod1 mRNA is the transcript for the cytoplasmic superoxide dismutase 1 enzyme, 
+which is a key antioxidant protein that neutralizes harmful superoxide radicals ****
+Total 735bp.
+
+https://www.ncbi.nlm.nih.gov/nuccore/NM_057387.5
+
+2. Run Blast with the Fasta Sequence and Check for the TOP 10 Organisms similarity with SOD1.
+https://docs.google.com/document/d/1ACkaTLTYToX_nTyPcfZqFgA52a7wJap01olXioA4ILw/edit?usp=sharing
+
