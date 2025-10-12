@@ -24,3 +24,7 @@ https://www.ncbi.nlm.nih.gov/nuccore/NM_057387.5
 2. Run Blast with the Fasta Sequence and Check for the TOP 10 Organisms similarity with SOD1.
 https://docs.google.com/document/d/1ACkaTLTYToX_nTyPcfZqFgA52a7wJap01olXioA4ILw/edit?usp=sharing
 
+3. Build a phylogenetic tree (NEIGHBOUR JOINING)
+
+To visualize results we will use R ( Posit Cloud ) and Python ( Google Colab )
+
