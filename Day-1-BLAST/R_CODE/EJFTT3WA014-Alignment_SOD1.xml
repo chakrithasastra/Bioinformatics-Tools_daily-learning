@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
+  <BlastOutput_db>core_nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1779305</BlastOutput_query-ID>
+  <BlastOutput_query-def>SOD1</BlastOutput_query-def>
+  <BlastOutput_query-len>735</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>0.05</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-2</Parameters_sc-mismatch>
+      <Parameters_gap-open>0</Parameters_gap-open>
+      <Parameters_gap-extend>0</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1779305</Iteration_query-ID>
+  <Iteration_query-def>SOD1</Iteration_query-def>
+  <Iteration_query-len>735</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|442631645|ref|NM_057387.5|</Hit_id>
+  <Hit_def>Drosophila melanogaster superoxide dismutase 1 (Sod1), mRNA</Hit_def>
+  <Hit_accession>NM_057387</Hit_accession>
+  <Hit_len>735</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1358.41</Hsp_bit-score>
+      <Hsp_score>735</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>735</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>735</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>735</Hsp_identity>
+      <Hsp_positive>735</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>735</Hsp_align-len>
+      <Hsp_qseq>CCGCATGTATTTCTAAGCTGCTCTGCTACGGTCACACCATAGAAGATACCTGGAAAGTTCTCAACTTTTTTCGTTTTGATAAATTGATTAATTCATTCGAAATGGTGGTTAAAGCTGTCTGCGTAATTAACGGCGATGCCAAGGGCACGGTTTTCTTCGAACAGGAGAGCAGCGGTACGCCCGTGAAGGTCTCCGGTGAGGTGTGCGGCCTGGCCAAGGGTCTGCACGGATTCCACGTGCACGAGTTCGGTGACAACACCAATGGCTGCATGTCGTCCGGACCGCACTTCAATCCGTATGGCAAGGAGCATGGCGCTCCCGTCGACGAGAATCGTCACCTGGGCGATCTGGGCAACATTGAGGCCACCGGCGACTGCCCCACCAAGGTCAACATCACCGACTCCAAGATTACGCTCTTCGGCGCCGACAGCATCATCGGACGCACCGTTGTCGTGCACGCCGATGCCGATGATCTTGGCCAGGGTGGACACGAGCTGAGCAAGTCAACGGGCAACGCTGGTGCCCGCATCGGGTGCGGCGTTATTGGCATTGCCAAGGTCTAAGCGATAATCTATTCCGATGTCGGCCACTGTGCTGATCTACTCTATTTAGCACTACCCACTGGAGATATACAAACGATATACATACTTCTAAACATAAATACATAGCCTGTGGTCTGTTAGTTGATACGCAACCTTTGAGGTTCAATAAATTGGTGTTTTGAAATTGCCCCAT</Hsp_qseq>
+      <Hsp_hseq>CCGCATGTATTTCTAAGCTGCTCTGCTACGGTCACACCATAGAAGATACCTGGAAAGTTCTCAACTTTTTTCGTTTTGATAAATTGATTAATTCATTCGAAATGGTGGTTAAAGCTGTCTGCGTAATTAACGGCGATGCCAAGGGCACGGTTTTCTTCGAACAGGAGAGCAGCGGTACGCCCGTGAAGGTCTCCGGTGAGGTGTGCGGCCTGGCCAAGGGTCTGCACGGATTCCACGTGCACGAGTTCGGTGACAACACCAATGGCTGCATGTCGTCCGGACCGCACTTCAATCCGTATGGCAAGGAGCATGGCGCTCCCGTCGACGAGAATCGTCACCTGGGCGATCTGGGCAACATTGAGGCCACCGGCGACTGCCCCACCAAGGTCAACATCACCGACTCCAAGATTACGCTCTTCGGCGCCGACAGCATCATCGGACGCACCGTTGTCGTGCACGCCGATGCCGATGATCTTGGCCAGGGTGGACACGAGCTGAGCAAGTCAACGGGCAACGCTGGTGCCCGCATCGGGTGCGGCGTTATTGGCATTGCCAAGGTCTAAGCGATAATCTATTCCGATGTCGGCCACTGTGCTGATCTACTCTATTTAGCACTACCCACTGGAGATATACAAACGATATACATACTTCTAAACATAAATACATAGCCTGTGGTCTGTTAGTTGATACGCAACCTTTGAGGTTCAATAAATTGGTGTTTTGAAATTGCCCCAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|21553194|gb|AC010023.6|</Hit_id>
+  <Hit_def>Drosophila melanogaster 3L BAC RP98-19G23 (Roswell Park Cancer Institute Drosophila BAC Library) complete sequence</Hit_def>
+  <Hit_accession>AC010023</Hit_accession>
+  <Hit_len>161175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1053.71</Hsp_bit-score>
+      <Hsp_score>570</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>166</Hsp_query-from>
+      <Hsp_query-to>735</Hsp_query-to>
+      <Hsp_hit-from>642</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>570</Hsp_identity>
+      <Hsp_positive>570</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>570</Hsp_align-len>
+      <Hsp_qseq>AGAGCAGCGGTACGCCCGTGAAGGTCTCCGGTGAGGTGTGCGGCCTGGCCAAGGGTCTGCACGGATTCCACGTGCACGAGTTCGGTGACAACACCAATGGCTGCATGTCGTCCGGACCGCACTTCAATCCGTATGGCAAGGAGCATGGCGCTCCCGTCGACGAGAATCGTCACCTGGGCGATCTGGGCAACATTGAGGCCACCGGCGACTGCCCCACCAAGGTCAACATCACCGACTCCAAGATTACGCTCTTCGGCGCCGACAGCATCATCGGACGCACCGTTGTCGTGCACGCCGATGCCGATGATCTTGGCCAGGGTGGACACGAGCTGAGCAAGTCAACGGGCAACGCTGGTGCCCGCATCGGGTGCGGCGTTATTGGCATTGCCAAGGTCTAAGCGATAATCTATTCCGATGTCGGCCACTGTGCTGATCTACTCTATTTAGCACTACCCACTGGAGATATACAAACGATATACATACTTCTAAACATAAATACATAGCCTGTGGTCTGTTAGTTGATACGCAACCTTTGAGGTTCAATAAATTGGTGTTTTGAAATTGCCCCAT</Hsp_qseq>
+      <Hsp_hseq>AGAGCAGCGGTACGCCCGTGAAGGTCTCCGGTGAGGTGTGCGGCCTGGCCAAGGGTCTGCACGGATTCCACGTGCACGAGTTCGGTGACAACACCAATGGCTGCATGTCGTCCGGACCGCACTTCAATCCGTATGGCAAGGAGCATGGCGCTCCCGTCGACGAGAATCGTCACCTGGGCGATCTGGGCAACATTGAGGCCACCGGCGACTGCCCCACCAAGGTCAACATCACCGACTCCAAGATTACGCTCTTCGGCGCCGACAGCATCATCGGACGCACCGTTGTCGTGCACGCCGATGCCGATGATCTTGGCCAGGGTGGACACGAGCTGAGCAAGTCAACGGGCAACGCTGGTGCCCGCATCGGGTGCGGCGTTATTGGCATTGCCAAGGTCTAAGCGATAATCTATTCCGATGTCGGCCACTGTGCTGATCTACTCTATTTAGCACTACCCACTGGAGATATACAAACGATATACATACTTCTAAACATAAATACATAGCCTGTGGTCTGTTAGTTGATACGCAACCTTTGAGGTTCAATAAATTGGTGTTTTGAAATTGCCCCAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>309.511</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>4.44667e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>1532</Hsp_hit-from>
+      <Hsp_hit-to>1366</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>CCGCATGTATTTCTAAGCTGCTCTGCTACGGTCACACCATAGAAGATACCTGGAAAGTTCTCAACTTTTTTCGTTTTGATAAATTGATTAATTCATTCGAAATGGTGGTTAAAGCTGTCTGCGTAATTAACGGCGATGCCAAGGGCACGGTTTTCTTCGAACAGGAG</Hsp_qseq>
+      <Hsp_hseq>CCGCATGTATTTCTAAGCTGCTCTGCTACGGTCACACCATAGAAGATACCTGGAAAGTTCTCAACTTTTTTCGTTTTGATAAATTGATTAATTCATTCGAAATGGTGGTTAAAGCTGTCTGCGTAATTAACGGCGATGCCAAGGGCACGGTTTTCTTCGAACAGGAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|4885686|gb|AC006562.8|AC006562</Hit_id>
+  <Hit_def>Drosophila melanogaster, chromosome 3L, region 68A1-68B2, BAC clone BACR48O03, complete sequence</Hit_def>
+  <Hit_accession>AC006562</Hit_accession>
+  <Hit_len>173781</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1053.71</Hsp_bit-score>
+      <Hsp_score>570</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>166</Hsp_query-from>
+      <Hsp_query-to>735</Hsp_query-to>
+      <Hsp_hit-from>145505</Hsp_hit-from>
+      <Hsp_hit-to>144936</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>570</Hsp_identity>
+      <Hsp_positive>570</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>570</Hsp_align-len>
+      <Hsp_qseq>AGAGCAGCGGTACGCCCGTGAAGGTCTCCGGTGAGGTGTGCGGCCTGGCCAAGGGTCTGCACGGATTCCACGTGCACGAGTTCGGTGACAACACCAATGGCTGCATGTCGTCCGGACCGCACTTCAATCCGTATGGCAAGGAGCATGGCGCTCCCGTCGACGAGAATCGTCACCTGGGCGATCTGGGCAACATTGAGGCCACCGGCGACTGCCCCACCAAGGTCAACATCACCGACTCCAAGATTACGCTCTTCGGCGCCGACAGCATCATCGGACGCACCGTTGTCGTGCACGCCGATGCCGATGATCTTGGCCAGGGTGGACACGAGCTGAGCAAGTCAACGGGCAACGCTGGTGCCCGCATCGGGTGCGGCGTTATTGGCATTGCCAAGGTCTAAGCGATAATCTATTCCGATGTCGGCCACTGTGCTGATCTACTCTATTTAGCACTACCCACTGGAGATATACAAACGATATACATACTTCTAAACATAAATACATAGCCTGTGGTCTGTTAGTTGATACGCAACCTTTGAGGTTCAATAAATTGGTGTTTTGAAATTGCCCCAT</Hsp_qseq>
+      <Hsp_hseq>AGAGCAGCGGTACGCCCGTGAAGGTCTCCGGTGAGGTGTGCGGCCTGGCCAAGGGTCTGCACGGATTCCACGTGCACGAGTTCGGTGACAACACCAATGGCTGCATGTCGTCCGGACCGCACTTCAATCCGTATGGCAAGGAGCATGGCGCTCCCGTCGACGAGAATCGTCACCTGGGCGATCTGGGCAACATTGAGGCCACCGGCGACTGCCCCACCAAGGTCAACATCACCGACTCCAAGATTACGCTCTTCGGCGCCGACAGCATCATCGGACGCACCGTTGTCGTGCACGCCGATGCCGATGATCTTGGCCAGGGTGGACACGAGCTGAGCAAGTCAACGGGCAACGCTGGTGCCCGCATCGGGTGCGGCGTTATTGGCATTGCCAAGGTCTAAGCGATAATCTATTCCGATGTCGGCCACTGTGCTGATCTACTCTATTTAGCACTACCCACTGGAGATATACAAACGATATACATACTTCTAAACATAAATACATAGCCTGTGGTCTGTTAGTTGATACGCAACCTTTGAGGTTCAATAAATTGGTGTTTTGAAATTGCCCCAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>309.511</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>4.44667e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>146395</Hsp_hit-from>
+      <Hsp_hit-to>146229</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>CCGCATGTATTTCTAAGCTGCTCTGCTACGGTCACACCATAGAAGATACCTGGAAAGTTCTCAACTTTTTTCGTTTTGATAAATTGATTAATTCATTCGAAATGGTGGTTAAAGCTGTCTGCGTAATTAACGGCGATGCCAAGGGCACGGTTTTCTTCGAACAGGAG</Hsp_qseq>
+      <Hsp_hseq>CCGCATGTATTTCTAAGCTGCTCTGCTACGGTCACACCATAGAAGATACCTGGAAAGTTCTCAACTTTTTTCGTTTTGATAAATTGATTAATTCATTCGAAATGGTGGTTAAAGCTGTCTGCGTAATTAACGGCGATGCCAAGGGCACGGTTTTCTTCGAACAGGAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|21553180|gb|AC096692.5|</Hit_id>
+  <Hit_def>Drosophila melanogaster 3L BAC RP98-48O3 (Roswell Park Cancer Institute Drosophila BAC Library) complete sequence</Hit_def>
+  <Hit_accession>AC096692</Hit_accession>
+  <Hit_len>173782</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1053.71</Hsp_bit-score>
+      <Hsp_score>570</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>166</Hsp_query-from>
+      <Hsp_query-to>735</Hsp_query-to>
+      <Hsp_hit-from>28277</Hsp_hit-from>
+      <Hsp_hit-to>28846</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>570</Hsp_identity>
+      <Hsp_positive>570</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>570</Hsp_align-len>
+      <Hsp_qseq>AGAGCAGCGGTACGCCCGTGAAGGTCTCCGGTGAGGTGTGCGGCCTGGCCAAGGGTCTGCACGGATTCCACGTGCACGAGTTCGGTGACAACACCAATGGCTGCATGTCGTCCGGACCGCACTTCAATCCGTATGGCAAGGAGCATGGCGCTCCCGTCGACGAGAATCGTCACCTGGGCGATCTGGGCAACATTGAGGCCACCGGCGACTGCCCCACCAAGGTCAACATCACCGACTCCAAGATTACGCTCTTCGGCGCCGACAGCATCATCGGACGCACCGTTGTCGTGCACGCCGATGCCGATGATCTTGGCCAGGGTGGACACGAGCTGAGCAAGTCAACGGGCAACGCTGGTGCCCGCATCGGGTGCGGCGTTATTGGCATTGCCAAGGTCTAAGCGATAATCTATTCCGATGTCGGCCACTGTGCTGATCTACTCTATTTAGCACTACCCACTGGAGATATACAAACGATATACATACTTCTAAACATAAATACATAGCCTGTGGTCTGTTAGTTGATACGCAACCTTTGAGGTTCAATAAATTGGTGTTTTGAAATTGCCCCAT</Hsp_qseq>
+      <Hsp_hseq>AGAGCAGCGGTACGCCCGTGAAGGTCTCCGGTGAGGTGTGCGGCCTGGCCAAGGGTCTGCACGGATTCCACGTGCACGAGTTCGGTGACAACACCAATGGCTGCATGTCGTCCGGACCGCACTTCAATCCGTATGGCAAGGAGCATGGCGCTCCCGTCGACGAGAATCGTCACCTGGGCGATCTGGGCAACATTGAGGCCACCGGCGACTGCCCCACCAAGGTCAACATCACCGACTCCAAGATTACGCTCTTCGGCGCCGACAGCATCATCGGACGCACCGTTGTCGTGCACGCCGATGCCGATGATCTTGGCCAGGGTGGACACGAGCTGAGCAAGTCAACGGGCAACGCTGGTGCCCGCATCGGGTGCGGCGTTATTGGCATTGCCAAGGTCTAAGCGATAATCTATTCCGATGTCGGCCACTGTGCTGATCTACTCTATTTAGCACTACCCACTGGAGATATACAAACGATATACATACTTCTAAACATAAATACATAGCCTGTGGTCTGTTAGTTGATACGCAACCTTTGAGGTTCAATAAATTGGTGTTTTGAAATTGCCCCAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>309.511</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>4.44667e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>27387</Hsp_hit-from>
+      <Hsp_hit-to>27553</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>CCGCATGTATTTCTAAGCTGCTCTGCTACGGTCACACCATAGAAGATACCTGGAAAGTTCTCAACTTTTTTCGTTTTGATAAATTGATTAATTCATTCGAAATGGTGGTTAAAGCTGTCTGCGTAATTAACGGCGATGCCAAGGGCACGGTTTTCTTCGAACAGGAG</Hsp_qseq>
+      <Hsp_hseq>CCGCATGTATTTCTAAGCTGCTCTGCTACGGTCACACCATAGAAGATACCTGGAAAGTTCTCAACTTTTTTCGTTTTGATAAATTGATTAATTCATTCGAAATGGTGGTTAAAGCTGTCTGCGTAATTAACGGCGATGCCAAGGGCACGGTTTTCTTCGAACAGGAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|8644|emb|X13780.1|</Hit_id>
+  <Hit_def>Drosophila melanogaster sod gene for Cu-Zn superoxide dismutase (EC 1.15.1.1)</Hit_def>
+  <Hit_accession>X13780</Hit_accession>
+  <Hit_len>1844</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1053.71</Hsp_bit-score>
+      <Hsp_score>570</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>166</Hsp_query-from>
+      <Hsp_query-to>735</Hsp_query-to>
+      <Hsp_hit-from>1203</Hsp_hit-from>
+      <Hsp_hit-to>1772</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>570</Hsp_identity>
+      <Hsp_positive>570</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>570</Hsp_align-len>
+      <Hsp_qseq>AGAGCAGCGGTACGCCCGTGAAGGTCTCCGGTGAGGTGTGCGGCCTGGCCAAGGGTCTGCACGGATTCCACGTGCACGAGTTCGGTGACAACACCAATGGCTGCATGTCGTCCGGACCGCACTTCAATCCGTATGGCAAGGAGCATGGCGCTCCCGTCGACGAGAATCGTCACCTGGGCGATCTGGGCAACATTGAGGCCACCGGCGACTGCCCCACCAAGGTCAACATCACCGACTCCAAGATTACGCTCTTCGGCGCCGACAGCATCATCGGACGCACCGTTGTCGTGCACGCCGATGCCGATGATCTTGGCCAGGGTGGACACGAGCTGAGCAAGTCAACGGGCAACGCTGGTGCCCGCATCGGGTGCGGCGTTATTGGCATTGCCAAGGTCTAAGCGATAATCTATTCCGATGTCGGCCACTGTGCTGATCTACTCTATTTAGCACTACCCACTGGAGATATACAAACGATATACATACTTCTAAACATAAATACATAGCCTGTGGTCTGTTAGTTGATACGCAACCTTTGAGGTTCAATAAATTGGTGTTTTGAAATTGCCCCAT</Hsp_qseq>
+      <Hsp_hseq>AGAGCAGCGGTACGCCCGTGAAGGTCTCCGGTGAGGTGTGCGGCCTGGCCAAGGGTCTGCACGGATTCCACGTGCACGAGTTCGGTGACAACACCAATGGCTGCATGTCGTCCGGACCGCACTTCAATCCGTATGGCAAGGAGCATGGCGCTCCCGTCGACGAGAATCGTCACCTGGGCGATCTGGGCAACATTGAGGCCACCGGCGACTGCCCCACCAAGGTCAACATCACCGACTCCAAGATTACGCTCTTCGGCGCCGACAGCATCATCGGACGCACCGTTGTCGTGCACGCCGATGCCGATGATCTTGGCCAGGGTGGACACGAGCTGAGCAAGTCAACGGGCAACGCTGGTGCCCGCATCGGGTGCGGCGTTATTGGCATTGCCAAGGTCTAAGCGATAATCTATTCCGATGTCGGCCACTGTGCTGATCTACTCTATTTAGCACTACCCACTGGAGATATACAAACGATATACATACTTCTAAACATAAATACATAGCCTGTGGTCTGTTAGTTGATACGCAACCTTTGAGGTTCAATAAATTGGTGTTTTGAAATTGCCCCAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>309.511</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>4.44667e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>313</Hsp_hit-from>
+      <Hsp_hit-to>479</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>CCGCATGTATTTCTAAGCTGCTCTGCTACGGTCACACCATAGAAGATACCTGGAAAGTTCTCAACTTTTTTCGTTTTGATAAATTGATTAATTCATTCGAAATGGTGGTTAAAGCTGTCTGCGTAATTAACGGCGATGCCAAGGGCACGGTTTTCTTCGAACAGGAG</Hsp_qseq>
+      <Hsp_hseq>CCGCATGTATTTCTAAGCTGCTCTGCTACGGTCACACCATAGAAGATACCTGGAAAGTTCTCAACTTTTTTCGTTTTGATAAATTGATTAATTCATTCGAAATGGTGGTTAAAGCTGTCTGCGTAATTAACGGCGATGCCAAGGGCACGGTTTTCTTCGAACAGGAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|148785207|dbj|AB312246.1|</Hit_id>
+  <Hit_def>Drosophila melanogaster DNA, chromosome 3L, 68A7, GS vector insertion site flanking region, clone: 10247-5p-6.seq</Hit_def>
+  <Hit_accession>AB312246</Hit_accession>
+  <Hit_len>834</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.872</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>2.14332e-52</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>CCTGGAAAGTTCTCAACTTTTTTCGTTTTGATAAATTGATTAATTCATTCGAAATGGTGGTTAAAGCTGTCTGCGTAATTAACGGCGATGCCAAGGGCACGGTTTTCTTCGAACAGGAG</Hsp_qseq>
+      <Hsp_hseq>CCTGGAAAGTTCTCAACTTTTTTCGTTTTGATAAATTGATTAATTCATTCGAAATGGTGGTTAAAGCTGTCTGCGTAATTAACGGCGATGCCAAGGGCACGGTTTTCTTCGAACAGGAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|148785206|dbj|AB312245.1|</Hit_id>
+  <Hit_def>Drosophila melanogaster DNA, chromosome 3L, 68A7, GS vector insertion site flanking region, clone: 10247-3p-6.seq</Hit_def>
+  <Hit_accession>AB312245</Hit_accession>
+  <Hit_len>476</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.533</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>2.25214e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>CCGCATGTATTTCTAAGCTGCTCTGCTACGGTCACACCATAGAAGATACCTGGAAA</Hsp_qseq>
+      <Hsp_hseq>CCGCATGTATTTCTAAGCTGCTCTGCTACGGTCACACCATAGAAGATACCTGGAAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|17946027|gb|AY071435.1|</Hit_id>
+  <Hit_def>Drosophila melanogaster RE52090 full length cDNA</Hit_def>
+  <Hit_accession>AY071435</Hit_accession>
+  <Hit_len>747</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1345.48</Hsp_bit-score>
+      <Hsp_score>728</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>735</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>731</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>730</Hsp_identity>
+      <Hsp_positive>730</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>731</Hsp_align-len>
+      <Hsp_qseq>ATGTATTTCTAAGCTGCTCTGCTACGGTCACACCATAGAAGATACCTGGAAAGTTCTCAACTTTTTTCGTTTTGATAAATTGATTAATTCATTCGAAATGGTGGTTAAAGCTGTCTGCGTAATTAACGGCGATGCCAAGGGCACGGTTTTCTTCGAACAGGAGAGCAGCGGTACGCCCGTGAAGGTCTCCGGTGAGGTGTGCGGCCTGGCCAAGGGTCTGCACGGATTCCACGTGCACGAGTTCGGTGACAACACCAATGGCTGCATGTCGTCCGGACCGCACTTCAATCCGTATGGCAAGGAGCATGGCGCTCCCGTCGACGAGAATCGTCACCTGGGCGATCTGGGCAACATTGAGGCCACCGGCGACTGCCCCACCAAGGTCAACATCACCGACTCCAAGATTACGCTCTTCGGCGCCGACAGCATCATCGGACGCACCGTTGTCGTGCACGCCGATGCCGATGATCTTGGCCAGGGTGGACACGAGCTGAGCAAGTCAACGGGCAACGCTGGTGCCCGCATCGGGTGCGGCGTTATTGGCATTGCCAAGGTCTAAGCGATAATCTATTCCGATGTCGGCCACTGTGCTGATCTACTCTATTTAGCACTACCCACTGGAGATATACAAACGATATACATACTTCTAAACATAAATACATAGCCTGTGGTCTGTTAGTTGATACGCAACCTTTGAGGTTCAATAAATTGGTGTTTTGAAATTGCCCCAT</Hsp_qseq>
+      <Hsp_hseq>ATGTGTTTCTAAGCTGCTCTGCTACGGTCACACCATAGAAGATACCTGGAAAGTTCTCAACTTTTTTCGTTTTGATAAATTGATTAATTCATTCGAAATGGTGGTTAAAGCTGTCTGCGTAATTAACGGCGATGCCAAGGGCACGGTTTTCTTCGAACAGGAGAGCAGCGGTACGCCCGTGAAGGTCTCCGGTGAGGTGTGCGGCCTGGCCAAGGGTCTGCACGGATTCCACGTGCACGAGTTCGGTGACAACACCAATGGCTGCATGTCGTCCGGACCGCACTTCAATCCGTATGGCAAGGAGCATGGCGCTCCCGTCGACGAGAATCGTCACCTGGGCGATCTGGGCAACATTGAGGCCACCGGCGACTGCCCCACCAAGGTCAACATCACCGACTCCAAGATTACGCTCTTCGGCGCCGACAGCATCATCGGACGCACCGTTGTCGTGCACGCCGATGCCGATGATCTTGGCCAGGGTGGACACGAGCTGAGCAAGTCAACGGGCAACGCTGGTGCCCGCATCGGGTGCGGCGTTATTGGCATTGCCAAGGTCTAAGCGATAATCTATTCCGATGTCGGCCACTGTGCTGATCTACTCTATTTAGCACTACCCACTGGAGATATACAAACGATATACATACTTCTAAACATAAATACATAGCCTGTGGTCTGTTAGTTGATACGCAACCTTTGAGGTTCAATAAATTGGTGTTTTGAAATTGCCCCAT</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|7792|emb|Z19591.1|</Hit_id>
+  <Hit_def>D.melanogaster Cu-Zn superoxide dismutase gene</Hit_def>
+  <Hit_accession>Z19591</Hit_accession>
+  <Hit_len>1844</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1048.17</Hsp_bit-score>
+      <Hsp_score>567</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>166</Hsp_query-from>
+      <Hsp_query-to>735</Hsp_query-to>
+      <Hsp_hit-from>1203</Hsp_hit-from>
+      <Hsp_hit-to>1772</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>569</Hsp_identity>
+      <Hsp_positive>569</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>570</Hsp_align-len>
+      <Hsp_qseq>AGAGCAGCGGTACGCCCGTGAAGGTCTCCGGTGAGGTGTGCGGCCTGGCCAAGGGTCTGCACGGATTCCACGTGCACGAGTTCGGTGACAACACCAATGGCTGCATGTCGTCCGGACCGCACTTCAATCCGTATGGCAAGGAGCATGGCGCTCCCGTCGACGAGAATCGTCACCTGGGCGATCTGGGCAACATTGAGGCCACCGGCGACTGCCCCACCAAGGTCAACATCACCGACTCCAAGATTACGCTCTTCGGCGCCGACAGCATCATCGGACGCACCGTTGTCGTGCACGCCGATGCCGATGATCTTGGCCAGGGTGGACACGAGCTGAGCAAGTCAACGGGCAACGCTGGTGCCCGCATCGGGTGCGGCGTTATTGGCATTGCCAAGGTCTAAGCGATAATCTATTCCGATGTCGGCCACTGTGCTGATCTACTCTATTTAGCACTACCCACTGGAGATATACAAACGATATACATACTTCTAAACATAAATACATAGCCTGTGGTCTGTTAGTTGATACGCAACCTTTGAGGTTCAATAAATTGGTGTTTTGAAATTGCCCCAT</Hsp_qseq>
+      <Hsp_hseq>AGAGCAGCGGTACGCCCGTGAAGGTCTCCGGTGAGGTGTGCGGCCTGGCCAAGGGTCTGCACGGATTCCACGTGCACGAGTTCGGTGACAACACCAATGGCTGCATGTCGTCCGGACCGCACTTCAATCCGTATGGCAAGGAGCATGGCGCTCCCGTCGACGAGAATCGTCACCTGGGCGATCTGGGCAACATTGAGGCCACCGGCGACTGCCCCACCAAGGTCAACATCACCGACTCCAAGATTACGCTCTTCGGCGCCGACAGCATCATCGGACGCACCGTTGTCGTGCACGCCGATGCCGATGATCTTGGCCAGGGTGGACACGAGCTGAGCAAGTCAACGGGCAACGCTGGTGCCCGCATCGGGTGCGGCGTTATTGGCATTGCCAAGGTCTAAGCGATAATCTATTCCGATGTCGGCCACTGTGCTGATCTACTCTATTTAGCACTACCCACTGGAGATATGCAAACGATATACATACTTCTAAACATAAATACATAGCCTGTGGTCTGTTAGTTGATACGCAACCTTTGAGGTTCAATAAATTGGTGTTTTGAAATTGCCCCAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>309.511</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>4.44667e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>313</Hsp_hit-from>
+      <Hsp_hit-to>479</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>CCGCATGTATTTCTAAGCTGCTCTGCTACGGTCACACCATAGAAGATACCTGGAAAGTTCTCAACTTTTTTCGTTTTGATAAATTGATTAATTCATTCGAAATGGTGGTTAAAGCTGTCTGCGTAATTAACGGCGATGCCAAGGGCACGGTTTTCTTCGAACAGGAG</Hsp_qseq>
+      <Hsp_hseq>CCGCATGTATTTCTAAGCTGCTCTGCTACGGTCACACCATAGAAGATACCTGGAAAGTTCTCAACTTTTTTCGTTTTGATAAATTGATTAATTCATTCGAAATGGTGGTTAAAGCTGTCTGCGTAATTAACGGCGATGCCAAGGGCACGGTTTTCTTCGAACAGGAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|619401|gb|S72589.1|S72589</Hit_id>
+  <Hit_def>Drosophila melanogaster slow superoxide dismutase (Sod) gene, partial cds</Hit_def>
+  <Hit_accession>S72589</Hit_accession>
+  <Hit_len>1410</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1048.17</Hsp_bit-score>
+      <Hsp_score>567</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>166</Hsp_query-from>
+      <Hsp_query-to>735</Hsp_query-to>
+      <Hsp_hit-from>769</Hsp_hit-from>
+      <Hsp_hit-to>1338</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>569</Hsp_identity>
+      <Hsp_positive>569</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>570</Hsp_align-len>
+      <Hsp_qseq>AGAGCAGCGGTACGCCCGTGAAGGTCTCCGGTGAGGTGTGCGGCCTGGCCAAGGGTCTGCACGGATTCCACGTGCACGAGTTCGGTGACAACACCAATGGCTGCATGTCGTCCGGACCGCACTTCAATCCGTATGGCAAGGAGCATGGCGCTCCCGTCGACGAGAATCGTCACCTGGGCGATCTGGGCAACATTGAGGCCACCGGCGACTGCCCCACCAAGGTCAACATCACCGACTCCAAGATTACGCTCTTCGGCGCCGACAGCATCATCGGACGCACCGTTGTCGTGCACGCCGATGCCGATGATCTTGGCCAGGGTGGACACGAGCTGAGCAAGTCAACGGGCAACGCTGGTGCCCGCATCGGGTGCGGCGTTATTGGCATTGCCAAGGTCTAAGCGATAATCTATTCCGATGTCGGCCACTGTGCTGATCTACTCTATTTAGCACTACCCACTGGAGATATACAAACGATATACATACTTCTAAACATAAATACATAGCCTGTGGTCTGTTAGTTGATACGCAACCTTTGAGGTTCAATAAATTGGTGTTTTGAAATTGCCCCAT</Hsp_qseq>
+      <Hsp_hseq>AGAGCAGCGGTACGCCCGTGAAGGTCTCCGGTGAGGTGTGCGGCCTGGCCAAGGGTCTGCACGGATTCCACGTGCACGAGTTCGGTGACAACACCAATGGCTGCATGTCGTCCGGACCGCACTTCAATCCGTATGGCAAGGAGCATGGCGCTCCCGTCGACGAGAATCGTCACCTGGGCGATCTGGGCAACATTGAGGCCACCGGCGACTGCCCCACCAAGGTCAAAATCACCGACTCCAAGATTACGCTCTTCGGCGCCGACAGCATCATCGGACGCACCGTTGTCGTGCACGCCGATGCCGATGATCTTGGCCAGGGTGGACACGAGCTGAGCAAGTCAACGGGCAACGCTGGTGCCCGCATCGGGTGCGGCGTTATTGGCATTGCCAAGGTCTAAGCGATAATCTATTCCGATGTCGGCCACTGTGCTGATCTACTCTATTTAGCACTACCCACTGGAGATATACAAACGATATACATACTTCTAAACATAAATACATAGCCTGTGGTCTGTTAGTTGATACGCAACCTTTGAGGTTCAATAAATTGGTGTTTTGAAATTGCCCCAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>84.2195</Hsp_bit-score>
+      <Hsp_score>45</Hsp_score>
+      <Hsp_evalue>2.934e-11</Hsp_evalue>
+      <Hsp_query-from>123</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>45</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>GTAATTAACGGCGATGCCAAGGGCACGGTTTTCTTCGAACAGGAG</Hsp_qseq>
+      <Hsp_hseq>GTAATTAACGGCGATGCCAAGGGCACGGTTTTCTTCGAACAGGAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>118231391</Statistics_db-num>
+      <Statistics_db-len>1900505035</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
