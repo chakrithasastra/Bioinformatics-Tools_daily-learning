@@ -34,5 +34,5 @@ ggplot(data = hits_info, aes(x = organism, y =hit_len,
   coord_flip() +
   labs(title = "Top 10 Organisms in BLAST Hits",
        x = "Organism", y = "Count")
-#true -SOD1 and #FALSE - Remaining Organisms
+#true -SOD1 and #FALSE - Remaining Organisms 
 
