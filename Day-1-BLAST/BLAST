@@ -14,6 +14,7 @@ BLAST - BASIC LOCAL ALIGNMENT SEARCH TOOL
 5. Visualize results.
 
 
+##### Drosophila melanogaster superoxide dismutase 1 (Sod1), mRNA #######
 1. NCBI SEARCH_DATABASE_NUCLEOTIDE_ Drosophila melanogaster superoxide dismutase 1 (Sod1), mRNA
 **** The Drosophila melanogaster Sod1 mRNA is the transcript for the cytoplasmic superoxide dismutase 1 enzyme, 
 which is a key antioxidant protein that neutralizes harmful superoxide radicals ****
@@ -29,6 +30,8 @@ https://docs.google.com/document/d/1ACkaTLTYToX_nTyPcfZqFgA52a7wJap01olXioA4ILw/
 To visualize results we will use R ( Posit Cloud ) and Python ( Google Colab )
 
 https://docs.google.com/document/d/1ACkaTLTYToX_nTyPcfZqFgA52a7wJap01olXioA4ILw/edit?usp=sharing
+
+##### Next same procedure for the - Drosophila melanogaster AMP-activated protein kinase alpha subunit (AMPKalpha), transcript variant A, mRNA #####
 
 
 
