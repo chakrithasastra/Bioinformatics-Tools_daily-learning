@@ -1,1 +1,28 @@
+https://colab.research.google.com/drive/1KqUxZW5MKSDusIL208kYYHPcAZESMpRm?usp=sharing
 
+!pip install biopython
+from Bio.Blast import NCBIXML
+import matplotlib.pyplot as plt
+from google.colab import files
+uploaded = files.upload()
+blast_record = NCBIXML.read(open("EJFTT3WA014-Alignment_SOD1.xml"))
+hit_names = []
+hit_scores = []
+
+for alignment in blast_record.alignments:
+    hit_names.append(alignment.title)
+    hit_scores.append(alignment.hsps[0].score)  # first HSP score
+
+plt.figure(figsize=(10,6))
+plt.barh(hit_names, hit_scores, color='skyblue')
+plt.xlabel("Alignment Score")
+plt.ylabel("Hit Description")
+plt.title("Top BLAST Hits for SOD1 Query")
+plt.gca().invert_yaxis()  # highest score at top
+plt.show()
+
+for alignment in blast_record.alignments[:5]:
+    print(f"Hit: {alignment.title}")
+    print(f"Length: {alignment.length}")
+    print(f"Score: {alignment.hsps[0].score}")
+    print(f"E-value: {alignment.hsps[0].expect}\n")
