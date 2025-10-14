@@ -1,0 +1,33 @@
+install.packages(c("xml2", "dplyr"))
+library(xml2)
+library(dplyr)
+df<-read.csv(file.choose())
+blast_xml <- read_xml("EWVFDSFN015-Alignment_AMPK.xml")
+hits <- xml_find_all(blast_xml, ".//Hit")
+get_hit_info <- function(hit_node) {
+  hit_id <- xml_text(xml_find_first(hit_node, "Hit_id"))
+  hit_def <- xml_text(xml_find_first(hit_node, "Hit_def"))
+  hit_len <- xml_text(xml_find_first(hit_node, "Hit_len"))
+  organism <- sub(".*OS=([^ ]+).*", "\\1", hit_def)
+  data.frame(hit_id, hit_def, hit_len, organism, stringsAsFactors = FALSE)
+}
+hits_info <- do.call(rbind, lapply(hits, get_hit_info))
+install.packages("ggplot2")
+library(ggplot2)
+ggplot(data = hits_info, aes(x=reorder(organism, hit_len), y=hit_len)) +
+  geom_bar(stat="identity", fill="violet") +
+  coord_flip() +
+  labs(title="Top 10 Organisms in BLAST Hits", x="Organism", y="Count")
+
+highlight_hit <- "Drosophila melanogaster AMP-activated protein kinase alpha subunit (AMPKalpha), transcript variant A, mRNA"
+
+# Plot
+ggplot(data = hits_info, aes(x = organism, y =hit_len, 
+                             fill = organism == highlight_hit)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values = c("TRUE" = "lavender", "FALSE" = "violet")) +
+  coord_flip() +
+  labs(title = "Top 10 Organisms in BLAST Hits",
+       x = "Organism", y = "Count")
+
+#true -AMPK and #FALSE - Remaining Organisms  
