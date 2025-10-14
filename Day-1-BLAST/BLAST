@@ -33,5 +33,17 @@ https://docs.google.com/document/d/1ACkaTLTYToX_nTyPcfZqFgA52a7wJap01olXioA4ILw/
 
 ##### Next same procedure for the - Drosophila melanogaster AMP-activated protein kinase alpha subunit (AMPKalpha), transcript variant A, mRNA #####
 
+number of base pairs: 2708
+1. Drosophila melanogaster AMP-activated protein kinase (AMPK) is the fruit fly's cellular "energy sensor" that turns on energy-producing processes and turns off energy-consuming ones when the cell is low on fuel.
+It's a key regulator of metabolism and can help protect against stress, like starvation or anoxia (lack of oxygen), by promoting energy balance and survival.
+
+https://www.ncbi.nlm.nih.gov/nuccore/NM_057965.4?report=fasta
+
+2.  Run Blast with the Fasta Sequence and Check for the TOP 10 Organisms similarity with AMPK.
+3. Build a phylogenetic tree (NEIGHBOUR JOINING)
+To visualize results we will use R ( Posit Cloud ) and Python ( Google Colab )
+
+
+
 
 
