@@ -1,2 +1,10 @@
 CLUSTAL OMEGA - Comparing Sequences - Alignment Engine
 
+It performs Multiple Sequence Alignment (MSA)
+It shows us differences / mutations clearly.
+useful in evolutionary studies , drugs target research , & funtional analysis.
+
+Why to use it? --> To understand how sequences are related.
+To identify important functional regions. 
+To build phylogentic trees (family tree of sequences)
+
