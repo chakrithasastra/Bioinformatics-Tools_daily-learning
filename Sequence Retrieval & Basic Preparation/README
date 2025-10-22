@@ -2,9 +2,19 @@
 
 Tools Used: BLAST, ORF Finder, SnapGene, BIOEDIT
 
-A. BLAST:
+Purpose: To retrieve gene and protein sequences, find ORFs, and prepare data for further bioinformatics analysis.
 
+1. BLAST : Finds and retrieves similar DNA or protein sequences from databases and identifies top matching organisms.
 
+2. ORF Finder: Detects open reading frames (ORFs) in DNA sequences to predict potential protein-coding regions.
+
+3. SnapGene: Visualizes, annotates, and manages DNA sequences, helping understand gene structure, cloning sites, and sequence features.
+
+4. BioEdit: Edits, aligns, and formats sequences so they are clean and ready for downstream analyses like alignment, phylogeny, or structure prediction.
+
+# Conclusion:
+
+Once working with tools of this specific module - update here.....
 
 
 
