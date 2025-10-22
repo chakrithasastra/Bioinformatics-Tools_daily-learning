@@ -48,3 +48,4 @@ URL: https://www.linkedin.com/posts/chandu-chowdary2111_bioinformatics-playbook-
 9. Visualization & Network Analysis
 (Cytoscape, Galaxy Platform)
 
+*****The remaining tools, once updated, will be organized and modified under each specific module.*****
