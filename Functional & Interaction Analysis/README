@@ -1,1 +1,20 @@
+PLIP - Protein-ligand interaction Profiler
 
+It automatically detects & analyzes non-covalent interactions between proteins & ligands.
+***Different type of interactions
+1. hydrogen bonds
+2. hydrophobic contacts
+3. pi-pi stacking 
+4. salt bridges
+5. Halogen bonds
+6. Water bridges.
+
+- 3D Visualizations / tables / reports
+
+Applications:
+-helps to understand drug-target binding clearly.
+-Imp for drug discovery, docking analysis, structural biology 
+
+Instead of manual interactions in PyMol
+
+PROTEIN ----X------ Villian
