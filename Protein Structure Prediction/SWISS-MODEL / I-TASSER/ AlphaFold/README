@@ -1,4 +1,4 @@
-SWISS MODEL:
+|| A. SWISS MODEL ||
 ----> Homology modeling webserver ,which predicts the 3D structure of protein (AA seq) - Based on tmeplate.
 Key features:
 1. Automated homology modelling
@@ -9,3 +9,41 @@ Key features:
 Application:
 Helps you visualize protein structures.
 Useful in drug desing, structure-function studies & mutational analysis.
+
+
+|| B. I-TASSER ||
+----> Sequence of a protein ---> 3D structure  ---> decides shapes of a protein.
+Iterative Threading Assembly Refinement.
+
+It takes protein sequence ----> Predicts structure ----> Possible Function.
+
+Types of I-TASSER TOOLS:
+a. I-TASSER
+b. LOMETS/ I-TASSER SUITE
+c. C-I-TASSER
+d. C-I-TASSER-SUITE
+e. COFACTOR
+
+Amino acids are last letters --> This tools into structures.
+
+
+|| C. AlphaFold (THE DESIGNER) ||
+
+-----> To find the 3D structure of proteins.
+-- used x-ray crystallography ,NMR, Cryo-EM ( Too slowly technical )
+
+This tool easiest way -- it predicts the 3D structure of proteins directly form the amino acid seq
+--> works with AI + Deep Learning
+--> provides near-experimental accuracy.
+
+Helps in drug discovery | Disease studies | vaccine design.
+Understanding biology at atomic level.
+
+|| Astrology for proteins ||
+---> Predicting the future (Protein Shape)
+---> Past knowledge (Data)
+---> Stars (Aminoacids)
+
+
+
+
