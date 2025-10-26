@@ -1,1 +1,12 @@
+JAVA - Java Codon Adaptation Tool.
 
+* if Optimizes codon usage of gene - Make sure to fits better in the host Organism.
+
+----> It avoids wanted sequences like.
+1. Restriction enzyme sites
+2. Rho-independent terminators
+3. Prokaryotic Ribosome Binding sites
+
+It Improves protein expression by adapting the gene to the host's preferences.
+
+Applications: It helps in synthetic biology , vaccine design & recombinant protein production.
