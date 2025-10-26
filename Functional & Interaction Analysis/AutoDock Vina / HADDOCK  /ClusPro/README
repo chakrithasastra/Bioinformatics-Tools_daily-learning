@@ -1,1 +1,13 @@
+It predicts how small molecules (ligands) bind to proteins (receptors)
 
+Calculate binding energy to find the best fit.
+It generates multiple possible poses of ligand - protein binding 
+
+** Fast, Accurate & widely used in drug discovery.
+
+Why ?
+1. It saves time & money before doing lab experiments.
+2. It helps design new medicines for cancer, diabetes,infections etc.,
+3. A foundation tool in computer-aided drug design (CADD)
+
+**** Right fit (full of locks proteins ) = Door Opens ( Drugs - keys - small moelcule ligand ) ******
