@@ -1,1 +1,14 @@
+PSIPRED
+
+--- A,M,K,G,L ( Protein Sequence ) ------->(folds)----> it can be Alpha-helices(spirals), Beta-sheets(arrows),coils(loops)
+
+Now the question, How can you predict the shpe of protein?
+
+* It predicts the secondary structure of proteins (helices, sheets,oils)
+* It uses powerful algorthims + position - specific scoring (PSI_BLAST)
+* It gives an easy-to-read visualization of the predicted structure.
+
+Helps in understanding protein function.
+
+----> A great first step in structural biology , drug design, & molecular research.
 
