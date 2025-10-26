@@ -1,1 +1,20 @@
+META SNP - Mutation Effect Prediction Tool
+
+_ In DNA ---> a single letter - swapped / Mutation - predicts if a mutation is harmless ( Neutral ) or harmful ( disease-related )
+
+The workflow - is a combination of four different predictors :
+
+* phD - SNP ( ML, trained on known mutations )
+* SIFT ( check evolutionary conversation of AA )
+* polyphen - 2 ( looks at protein structure & function )
+* SNAP ( checks evolutionary conservation of AA )
+
+--> It uses a meta classifier - for relaible final answer and a confidence score.
+Why Imp ?
+-study of mutations 
+-Crucial in personalized medicine - predicting patient-secific risks.
+
+Applications:
+Genomics Projects, Disease Gene Discovery, & Drug Design.
+
 
