@@ -1,1 +1,11 @@
+SWISS MODEL:
+----> Homology modeling webserver ,which predicts the 3D structure of protein (AA seq) - Based on tmeplate.
+Key features:
+1. Automated homology modelling
+2. Template search & alignment done automatically using it's in-built database.
+3. Builds a full 3D model.
+4. Provides a quality score (QMEAN)_to evaluate how good your model is.......
 
+Application:
+Helps you visualize protein structures.
+Useful in drug desing, structure-function studies & mutational analysis.
