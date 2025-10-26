@@ -1,1 +1,14 @@
+A Friend of DNA
+
+--> A digital guide for PCR experiments
+-- Doing PCR - Need to design the correct primers 
+1. GC CONTENT Melting Temperature
+2. or using Primer3 (well-optmized primer sets)
+
+It is a bioinformatics tool - that helps us to design primers for PCR experiments.
+
+Advantage : 
+1. Suggests Primer atumatically
+2. Check GC Content, Tm, dimers, hairpins
+3. Saves time & reduce errors.
 
