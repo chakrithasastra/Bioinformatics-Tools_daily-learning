@@ -1,1 +1,21 @@
+AllerTOP / AllergenFP
+
+Proteins in food or enivornment act as allergens.
+Through this they could predict in advance - which protein might cause allergy before using it medicines or vaccines.
+
+AllerTOP:
+
+It predicts whether a protein is an allergen or non-allergen
+It uses ML methods.
+* Helps in designing safer vaccines / drugs & foods.
+Like a Topper , uses algorithms based on protein properties.
+
+AllergenFP:
+
+Based on descriptor fingerprints of proteins 
+Simple, alignment-free method.
+Fast & reliable to screen large sets of proteins.
+Fingerprint -it's structures features.
+
+
 
