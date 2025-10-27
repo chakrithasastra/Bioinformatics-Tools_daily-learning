@@ -1,1 +1,7 @@
+BioEdit
 
+It edit DNA & protein sequence easily.
+It supports multiple sequence alignment with clustalW
+--> Allows to annotate , translate, & analyze seq.
+
+Simple tools for restritcion mapping & Primer design.
