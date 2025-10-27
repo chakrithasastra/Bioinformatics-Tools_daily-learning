@@ -1,1 +1,9 @@
+## CHECKING INSPECTOR ##
 
+It Checks the quality of protein & Nucleic Acid structures.
+Detects geometry errors, steric clashes.
+
+It occurs in a molecule - two non-bonded atoms are impossibly close to each other.
+
+Also give you a Ramachandran Plot ----> to see proteins backbone is behaving correctly or not.
+It shows errors & wrong regions.
