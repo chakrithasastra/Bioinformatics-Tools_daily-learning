@@ -1,1 +1,11 @@
+Galaxy Refine:
+
+We use Alphafold or I-TASSER ( To predict the protein structure )
+However, but still tailoring and refine needed.
+
+It removes errors, adjust bonds, fixed side-chain clashes.
+Refines geometry & improves structural quality.
+
+It makes the model more reliable for relaiable for research & drug design.
+Essential for drug docking, function studies, & Stimulations.
 
